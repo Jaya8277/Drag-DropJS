@@ -1,0 +1,31 @@
+body{
+    background:darkslateblue;
+}
+.imgBox{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3IZbLv2IahKq7MvJVOlOQ8oTu4c8yvm2ZcQ&usqp=CAU");
+    top: 7px;
+    position: relative;
+    height: 145px;
+    left: 5px;
+    width: 145px;
+    background-image: cover;
+    cursor: pointer;
+}
+.whiteBox{
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: #fff;
+    border: 3px solid black;
+}
+.hold{
+    border: solid red 4px;
+}
+.dashed{
+    background: violet;
+    border-style: dashed;
+}
+.hide{
+    display: none;
+}
